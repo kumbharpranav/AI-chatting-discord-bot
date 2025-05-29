@@ -83,6 +83,8 @@ class MoonBot(commands.Bot):
         if message.author == self.user:
             return
         
+        logger.info(f"Received message from {message.author}: {message.content[:50]}...")
+        
         # Process commands first
         await self.process_commands(message)
         
@@ -95,10 +97,11 @@ class MoonBot(commands.Bot):
             user_id = message.author.id
             content = message.content.lower()
             
-            # Check if Moon is mentioned or DM
+            # Check if Moon should respond (more responsive for testing)
             is_mentioned = (self.user and self.user.mentioned_in(message)) or isinstance(message.channel, discord.DMChannel)
             is_reply = message.reference and message.reference.message_id in getattr(self, 'recent_messages', set())
-            should_respond = is_mentioned or is_reply or random.random() < 0.3  # 30% chance to respond randomly
+            contains_moon = 'moon' in content
+            should_respond = is_mentioned or is_reply or contains_moon or random.random() < 0.5  # 50% chance to respond randomly
             
             if not should_respond:
                 return
