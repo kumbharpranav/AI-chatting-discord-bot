@@ -39,6 +39,9 @@ class MoonBot(commands.Bot):
         # User conversation tracking
         self.user_conversations = {}
         self.last_message_time = {}
+        
+        # Channel activation tracking
+        self.active_channels = set()
     
     async def on_ready(self):
         """Called when bot is ready"""
@@ -97,11 +100,12 @@ class MoonBot(commands.Bot):
             user_id = message.author.id
             content = message.content.lower()
             
-            # Check if Moon should respond (more responsive for testing)
+            # Check if Moon should respond
             is_mentioned = (self.user and self.user.mentioned_in(message)) or isinstance(message.channel, discord.DMChannel)
             is_reply = message.reference and message.reference.message_id in getattr(self, 'recent_messages', set())
             contains_moon = 'moon' in content
-            should_respond = is_mentioned or is_reply or contains_moon or random.random() < 0.5  # 50% chance to respond randomly
+            is_active_channel = message.channel.id in self.active_channels
+            should_respond = is_mentioned or is_reply or contains_moon or is_active_channel or random.random() < 0.3
             
             if not should_respond:
                 return
@@ -345,3 +349,27 @@ class MoonBot(commands.Bot):
         embed.description = f"{emoji} Moon feels {stats['relationship_level'].replace('_', ' ')} with you!"
         
         await interaction.followup.send(embed=embed)
+
+    @app_commands.command(name="activate", description="Activate Moon to respond to all messages in this channel")
+    async def activate_slash(self, interaction: discord.Interaction):
+        """Slash command to activate bot in current channel"""
+        await interaction.response.defer()
+        
+        channel_id = interaction.channel.id
+        if channel_id in self.active_channels:
+            await interaction.followup.send("Arrey yaar, main already active hu yahan 😏💕 Ready to chat with everyone!")
+        else:
+            self.active_channels.add(channel_id)
+            await interaction.followup.send(f"Heyy everyone! 🌙✨ Moon is now active in this channel! Main har message ka reply karungi, so get ready for some fun conversations baby 😘💖")
+
+    @app_commands.command(name="deactivate", description="Deactivate Moon from responding to all messages")
+    async def deactivate_slash(self, interaction: discord.Interaction):
+        """Slash command to deactivate bot in current channel"""
+        await interaction.response.defer()
+        
+        channel_id = interaction.channel.id
+        if channel_id in self.active_channels:
+            self.active_channels.remove(channel_id)
+            await interaction.followup.send("Okay baby, main ab selective responses karungi 🥺 Mention karna ya commands use karna if you want to talk 💕")
+        else:
+            await interaction.followup.send("Main already selective response mode mein hu yaar 😊 Use /activate to make me respond to everything!")
