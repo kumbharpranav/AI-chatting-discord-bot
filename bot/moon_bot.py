@@ -4,6 +4,7 @@ Main Moon Discord Bot class
 
 import discord
 from discord.ext import commands
+from discord import app_commands
 import logging
 import random
 import asyncio
@@ -51,8 +52,17 @@ class MoonBot(commands.Bot):
         )
         await self.change_presence(activity=activity)
         
+        # Sync slash commands
+        try:
+            synced = await self.tree.sync()
+            logger.info(f"Synced {len(synced)} slash commands")
+        except Exception as e:
+            logger.error(f"Failed to sync slash commands: {e}")
+        
         # Send a cute startup message to bot owner if possible
         await self.send_startup_message()
+        
+
     
     async def send_startup_message(self):
         """Send a cute startup message"""
@@ -86,7 +96,7 @@ class MoonBot(commands.Bot):
             content = message.content.lower()
             
             # Check if Moon is mentioned or DM
-            is_mentioned = self.user.mentioned_in(message) or isinstance(message.channel, discord.DMChannel)
+            is_mentioned = (self.user and self.user.mentioned_in(message)) or isinstance(message.channel, discord.DMChannel)
             is_reply = message.reference and message.reference.message_id in getattr(self, 'recent_messages', set())
             should_respond = is_mentioned or is_reply or random.random() < 0.3  # 30% chance to respond randomly
             
@@ -172,7 +182,7 @@ class MoonBot(commands.Bot):
             logger.error(f"Error sending response: {e}")
     
     @commands.command(name='moon', aliases=['m'])
-    async def moon_command(self, ctx, *, message: str = None):
+    async def moon_command(self, ctx, *, message: str = ""):
         """Direct command to talk to Moon"""
         if not message:
             greeting = await self.personality.get_greeting(ctx.author.display_name)
@@ -220,3 +230,115 @@ class MoonBot(commands.Bot):
             "Haww, main confuse ho gayi 🤯 Thoda aaram se batao na..."
         ]
         await ctx.send(random.choice(error_responses))
+
+    # Slash Commands
+    @app_commands.command(name="talk", description="Talk to Moon - your virtual girlfriend")
+    @app_commands.describe(message="What do you want to say to Moon?")
+    async def talk_slash(self, interaction: discord.Interaction, message: str = None):
+        """Slash command to talk to Moon"""
+        await interaction.response.defer()
+        
+        if not message:
+            greeting = await self.personality.get_greeting(interaction.user.display_name)
+            await interaction.followup.send(greeting)
+            return
+        
+        response = await self.conversation_handler.get_response(
+            message, 
+            interaction.user.display_name,
+            interaction.user.id
+        )
+        await interaction.followup.send(response)
+
+    @app_commands.command(name="pic", description="Get Moon's cute picture")
+    async def pic_slash(self, interaction: discord.Interaction):
+        """Slash command to get Moon's picture"""
+        await interaction.response.defer()
+        
+        try:
+            # Get image URL
+            image_url = await self.image_handler.get_trendy_girl_image()
+            
+            # Get cute response
+            pic_response = await self.personality.get_picture_response(interaction.user.display_name)
+            
+            if image_url:
+                embed = discord.Embed(
+                    description=pic_response,
+                    color=0xFF69B4  # Hot pink
+                )
+                embed.set_image(url=image_url)
+                await interaction.followup.send(embed=embed)
+            else:
+                # Fallback if no image found
+                fallback_response = await self.personality.get_no_image_response()
+                await interaction.followup.send(fallback_response)
+        
+        except Exception as e:
+            logger.error(f"Error in pic slash command: {e}")
+            fallback = "Arrey yaar, abhi meri pics ready nahi hai 🥺 Thoda wait karo na... 💕"
+            await interaction.followup.send(fallback)
+
+    @app_commands.command(name="mood", description="Check Moon's current mood")
+    async def mood_slash(self, interaction: discord.Interaction):
+        """Slash command to check Moon's mood"""
+        await interaction.response.defer()
+        mood_response = await self.personality.get_mood_response()
+        await interaction.followup.send(mood_response)
+
+    @app_commands.command(name="date", description="Talk to Moon about dating and relationships")
+    async def date_slash(self, interaction: discord.Interaction):
+        """Slash command about dating/relationships"""
+        await interaction.response.defer()
+        dating_response = await self.personality.get_dating_response(interaction.user.display_name)
+        await interaction.followup.send(dating_response)
+
+    @app_commands.command(name="support", description="Get emotional support from Moon")
+    @app_commands.describe(feelings="Tell Moon how you're feeling")
+    async def support_slash(self, interaction: discord.Interaction, feelings: str):
+        """Slash command for emotional support"""
+        await interaction.response.defer()
+        support_response = await self.conversation_handler.get_emotional_support_response(
+            feelings, interaction.user.display_name
+        )
+        await interaction.followup.send(support_response)
+
+    @app_commands.command(name="stats", description="See your relationship stats with Moon")
+    async def stats_slash(self, interaction: discord.Interaction):
+        """Slash command to see user stats"""
+        await interaction.response.defer()
+        
+        stats = self.conversation_handler.get_user_stats(interaction.user.id)
+        
+        embed = discord.Embed(
+            title=f"{interaction.user.display_name}'s Stats with Moon 🌙💕",
+            color=0xFF69B4
+        )
+        
+        embed.add_field(
+            name="Messages Exchanged", 
+            value=f"{stats['messages_exchanged']} messages", 
+            inline=True
+        )
+        embed.add_field(
+            name="Relationship Level", 
+            value=stats['relationship_level'].replace('_', ' ').title(), 
+            inline=True
+        )
+        embed.add_field(
+            name="Days Since First Chat", 
+            value=f"{stats['days_since_first_interaction']} days", 
+            inline=True
+        )
+        
+        relationship_emojis = {
+            "new": "🌱",
+            "acquaintance": "🌸", 
+            "friend": "💕",
+            "close_friend": "💖"
+        }
+        
+        emoji = relationship_emojis.get(stats['relationship_level'], "💝")
+        embed.description = f"{emoji} Moon feels {stats['relationship_level'].replace('_', ' ')} with you!"
+        
+        await interaction.followup.send(embed=embed)
