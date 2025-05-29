@@ -24,6 +24,15 @@ class ImageHandler:
             "https://images.unsplash.com/photo-1488716820095-cbe80883c496?w=400&h=600&fit=crop&crop=face"
         ]
         
+        # Cute GIFs for different moods
+        self.cute_gifs = [
+            "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif",  # cute wave
+            "https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif",       # heart eyes
+            "https://media.giphy.com/media/l2Je66zG6mAAZxgqI/giphy.gif",   # sending love
+            "https://media.giphy.com/media/26BRzQS5HXcEWM7du/giphy.gif",   # blowing kiss
+            "https://media.giphy.com/media/xUA7aM09ByyR1w5YWc/giphy.gif"   # cute smile
+        ]
+        
     async def get_trendy_girl_image(self) -> Optional[str]:
         """Get a trendy girl image URL"""
         try:

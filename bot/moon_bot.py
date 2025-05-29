@@ -42,6 +42,9 @@ class MoonBot(commands.Bot):
         
         # Channel activation tracking
         self.active_channels = set()
+        
+        # Track processed messages to avoid double responses
+        self.processed_messages = set()
     
     async def on_ready(self):
         """Called when bot is ready"""
@@ -85,6 +88,15 @@ class MoonBot(commands.Bot):
         # Ignore bot's own messages
         if message.author == self.user:
             return
+        
+        # Prevent double responses
+        if message.id in self.processed_messages:
+            return
+        self.processed_messages.add(message.id)
+        
+        # Keep only recent message IDs to prevent memory issues
+        if len(self.processed_messages) > 1000:
+            self.processed_messages = set(list(self.processed_messages)[-500:])
         
         logger.info(f"Received message from {message.author}: {message.content[:50]}...")
         
