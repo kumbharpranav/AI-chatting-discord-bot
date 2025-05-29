@@ -1,0 +1,3 @@
+"""
+Moon Discord Bot Package
+"""
