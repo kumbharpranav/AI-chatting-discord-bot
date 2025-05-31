@@ -3,6 +3,8 @@
 Main entry point for Moon Discord Bot
 A GenZ Hinglish girlfriend personality bot using Gemini 2.0 Flash
 """
+import os
+
 
 import asyncio
 import logging
@@ -22,7 +24,7 @@ async def main():
     """Main function to run the Moon bot"""
     try:
         # Hardcoded token (be cautious with sharing this)
-        discord_token = "MTM3Nzc2NzkxNDY4NTU5OTgzNA.GuC6lh.4eNsy_ZW6b1bUUF3tEq5775nNzuVroIdLwb-5U"
+        discord_token = os.getenv("DISCORD_TOKEN")
 
         if not discord_token:
             logger.error("DISCORD_TOKEN is missing!")
