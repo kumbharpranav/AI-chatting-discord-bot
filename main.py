@@ -6,11 +6,12 @@ A GenZ Hinglish girlfriend personality bot using Gemini 2.0 Flash
 
 import asyncio
 import logging
-
+import os
+from dotenv import load_dotenv
 from bot.moon_bot import MoonBot
 
 # Load environment variables
-
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
