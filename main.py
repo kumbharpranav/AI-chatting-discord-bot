@@ -22,7 +22,7 @@ async def main():
     """Main function to run the Moon bot"""
     try:
         # Hardcoded token (be cautious with sharing this)
-        discord_token = "MTM3Nzc2NzkxNDY4NTU5OTgzNA.Gm1kae.CI-g3AOllmykfGzpKDjfHTqU3ywKAH133SuVLQ"
+        discord_token = "MTM3Nzc2NzkxNDY4NTU5OTgzNA.GuC6lh.4eNsy_ZW6b1bUUF3tEq5775nNzuVroIdLwb-5U"
 
         if not discord_token:
             logger.error("DISCORD_TOKEN is missing!")
