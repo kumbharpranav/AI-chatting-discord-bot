@@ -3,13 +3,9 @@
 import asyncio
 import logging
 import os
-from dotenv import load_dotenv
 from bot.moon_bot import MoonBot
 
-# Load the .env file for secrets
-load_dotenv()
-
-# Set up logging
+# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -18,11 +14,12 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-
 logger = logging.getLogger(__name__)
 
 async def main():
+    """Main function to run the Moon bot"""
     try:
+        # Read the token directly (Render sets DISCORD_TOKEN in its env)
         discord_token = os.getenv("DISCORD_TOKEN")
         if not discord_token:
             logger.error("DISCORD_TOKEN is missing!")
