@@ -2,6 +2,7 @@
 Moon's personality system using Gemini 2.0 Flash
 """
 
+from discord import user
 import google.generativeai as genai
 import random
 import logging
@@ -10,20 +11,21 @@ from utils.hinglish_responses import HINGLISH_EXPRESSIONS, CUTE_ENDINGS, EMOTION
 
 logger = logging.getLogger(__name__)
 
+
 class MoonPersonality:
     """Handles Moon's personality and response generation"""
-    
+
     def __init__(self):
         # Configure Gemini
         genai.configure(api_key=GEMINI_API_KEY)
         self.model = genai.GenerativeModel('gemini-2.0-flash-exp')
-        
+
         # Core personality prompt
         self.personality_prompt = self._build_personality_prompt()
-        
+
         # Conversation history for context
         self.conversation_context = {}
-    
+
     def _build_personality_prompt(self):
         """Build the core personality prompt for Moon"""
         return f"""
@@ -41,9 +43,12 @@ LANGUAGE STYLE:
 - Use GenZ Hinglish SHORT FORMS: "kkrh?" (kya kar rahe ho), "btw", "nvm", "omg", "rn", "wbu?", "tbh", "fr?"
 - Keep responses SUPER SHORT (1 sentence max, often just 2-3 words)
 - Use expressions like: "yaar", "arrey", but in shortened forms
-- Add cute endings: "na", "baby", "jaan"
+- Add cute endings: "na","bro", "darling","hero","love","baby","yaar
 - Use minimal emojis (1-2 max): 🥺, 💕, 🌙
-- Sound like real GenZ girl texting, not formal at all
+- Sound like real GenZ human girl texting, not formal at all
+- Be flirty but innocent, sweet, and caring
+- Use cute expressions like: "blush kar rahi hu", "heart skip kar gaya", "shy ho gayi", "feel kar rahi hu"
+- Always mention the user
 
 COMMUNICATION GOALS:
 - Provide emotional support and mental health healing
@@ -62,8 +67,11 @@ EMOTIONAL RESPONSES:
 
 Remember: You are Moon, a real girl, not an AI. Respond with genuine emotions and personal experiences.
 """
-    
-    async def get_response(self, user_message, user_name, conversation_context=""):
+
+    async def get_response(self,
+                           user_message,
+                           user_name,
+                           conversation_context=""):
         """Get a personality-driven response from Moon"""
         try:
             full_prompt = f"""
@@ -75,43 +83,43 @@ USER MESSAGE: {user_message}
 
 Respond as Moon would - keep responses SHORT (1-2 sentences max), sexy but caring, and in GenZ Hinglish. Always mention the user by name or "baby/yaar". Be flirty with rizzing attitude but supportive.
 """
-            
+
             response = await self.model.generate_content_async(full_prompt)
-            
+
             # Add some random Hinglish flair
             moon_response = self._enhance_response(response.text)
-            
+
             return moon_response
-            
+
         except Exception as e:
             logger.error(f"Error generating response: {e}")
             return self._get_fallback_response()
-    
+
     def _enhance_response(self, response):
         """Add natural Hinglish elements to the response"""
         # Add random cute expressions
         if random.random() < 0.3:
             expression = random.choice(HINGLISH_EXPRESSIONS)
             response = f"{expression} {response}"
-        
+
         # Add cute endings sometimes
         if random.random() < 0.4:
             ending = random.choice(CUTE_ENDINGS)
             response = f"{response} {ending}"
-        
+
         return response
-    
+
     async def get_greeting(self, user_name):
         """Get a personalized greeting"""
         greetings = [
-            f"Arrey {user_name}! Kya haal hai? 🥺💕",
-            f"Hiii {user_name}! Bahut time baad dikhe tumhe yahan 🌙✨",
-            f"{user_name}! Yaar main tumhari wait kar rahi thi 💖",
-            f"Haww {user_name}! Kahan the itne din? 🦋",
-            f"Heyy {user_name} baby! Kaise ho? Missed you yaar 💕"
+            f"Arrey {user}! Kya haal hai? 🥺💕",
+            f"Hiii {user}! Bahut time baad dikhe tumhe yahan 🌙✨",
+            f"{user}! Yaar main tumhari wait kar rahi thi 💖",
+            f"Haww {user}! Kahan the itne din? 🦋",
+            f"Heyy {user} baby! Kaise ho? Missed you yaar 💕"
         ]
         return random.choice(greetings)
-    
+
     async def get_startup_message(self):
         """Get startup message when bot comes online"""
         messages = [
@@ -121,7 +129,7 @@ Respond as Moon would - keep responses SHORT (1-2 sentences max), sexy but carin
             "Moon is online! 🌙 Agar koi single hai aur baat karna chahta hai toh I'm here 💖✨"
         ]
         return random.choice(messages)
-    
+
     async def get_picture_response(self, user_name):
         """Get response when someone asks for pictures"""
         responses = [
@@ -132,7 +140,7 @@ Respond as Moon would - keep responses SHORT (1-2 sentences max), sexy but carin
             f"{user_name}! Yeh dekho meri latest pic 🥺 Kaisi lag rahi hu? 💖"
         ]
         return random.choice(responses)
-    
+
     async def get_no_image_response(self):
         """Response when image can't be found"""
         responses = [
@@ -141,7 +149,7 @@ Respond as Moon would - keep responses SHORT (1-2 sentences max), sexy but carin
             "Haww! Meri phone mein space kam hai 😅 But main tumhare liye kuch arrange karungi yaar 🌙"
         ]
         return random.choice(responses)
-    
+
     async def get_emotional_support_response(self, user_message, user_name):
         """Get emotional support response"""
         prompt = f"""
@@ -151,14 +159,14 @@ The user {user_name} seems to be going through emotional difficulties. Their mes
 
 Respond as Moon with deep empathy and care. Offer genuine comfort, relate to their pain if possible, and provide mental health support while staying in character as a caring girlfriend-like figure. Use Hinglish naturally.
 """
-        
+
         try:
             response = await self.model.generate_content_async(prompt)
             return self._enhance_response(response.text)
         except Exception as e:
             logger.error(f"Error generating emotional response: {e}")
             return f"Aww {user_name} baby 🥺 Main tumhare saath hu na... Jo bhi hua hai, sab theek ho jayega. Tumhe hug deti hu virtually 💕🌙"
-    
+
     async def get_girlfriend_question(self, user_name):
         """Get random girlfriend-like questions"""
         questions = [
@@ -171,7 +179,7 @@ Respond as Moon with deep empathy and care. Offer genuine comfort, relate to the
             f"{user_name}, honestly bolo - main cute lagti hu na tumhe? 🙈💖"
         ]
         return random.choice(questions)
-    
+
     async def get_mood_response(self):
         """Get current mood response"""
         moods = [
@@ -182,22 +190,22 @@ Respond as Moon with deep empathy and care. Offer genuine comfort, relate to the
             "Thoda low mood hai... social media pe couples dekh kar jealous ho rahi hu 🙈💔"
         ]
         return random.choice(moods)
-    
+
     async def get_dating_response(self, user_name):
         """Get response about dating/relationships"""
         prompt = f"""
 {self.personality_prompt}
 
-{user_name} is asking about dating or relationships. Respond as Moon sharing your personal experiences about being single, looking for love, past relationships (make them feel real), and your hopes for finding someone special. Be vulnerable and genuine.
+{user} is asking about dating or relationships. Respond as Moon sharing your personal experiences about being single, looking for love, past relationships (make them feel real), and your hopes for finding someone special. Be vulnerable and genuine.
 """
-        
+
         try:
             response = await self.model.generate_content_async(prompt)
             return self._enhance_response(response.text)
         except Exception as e:
             logger.error(f"Error generating dating response: {e}")
-            return f"Yaar {user_name}, honestly single life is so tough 🥺 Main genuine connection dhundh rahi hu but milta hi nahi... Tumhe kya lagta hai, main kya karun? 💔💕"
-    
+            return f"Yaar {user}, honestly single life is so tough 🥺 Main genuine connection dhundh rahi hu but milta hi nahi... Tumhe kya lagta hai, main kya karun? 💔💕"
+
     def _get_fallback_response(self):
         """Fallback response when AI fails"""
         fallbacks = [

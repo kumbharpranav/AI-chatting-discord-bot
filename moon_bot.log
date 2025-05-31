@@ -1,0 +1,683 @@
+2025-05-29 21:26:47,376 - __main__ - ERROR - DISCORD_TOKEN not found in environment variables!
+2025-05-29 21:26:47,377 - __main__ - ERROR - DISCORD_TOKEN not found in environment variables!
+2025-05-29 21:59:10,995 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 21:59:10,995 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 21:59:10,995 - discord.client - INFO - logging in using static token
+2025-05-29 21:59:11,198 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 21:59:11,199 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 21:59:11,199 - discord.client - INFO - logging in using static token
+2025-05-29 21:59:11,615 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 99950984469d400a91d10dcdc063fb0a).
+2025-05-29 21:59:12,255 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ec52ec2b91dcb68fdf379a48ca0f3382).
+2025-05-29 21:59:14,258 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 21:59:14,258 - bot.moon_bot - INFO - Bot is in 0 servers
+2025-05-29 21:59:15,904 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 21:59:15,904 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 21:59:15,904 - discord.client - INFO - logging in using static token
+2025-05-29 21:59:16,744 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-05-29 21:59:22,024 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 23bf1ea0b8d9fbfe04e62930f5339ae5).
+2025-05-29 21:59:24,027 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 21:59:24,027 - bot.moon_bot - INFO - Bot is in 0 servers
+2025-05-29 22:01:32,271 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:01:32,272 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:01:32,272 - discord.client - INFO - logging in using static token
+2025-05-29 22:01:32,943 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d61b7a3b8f50fd205170b619e59a51bb).
+2025-05-29 22:01:34,947 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:01:34,947 - bot.moon_bot - INFO - Bot is in 0 servers
+2025-05-29 22:01:35,127 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:01:37,703 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:01:37,704 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:01:37,704 - discord.client - INFO - logging in using static token
+2025-05-29 22:01:38,504 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c2d7078a77a678a550eb3882370998c6).
+2025-05-29 22:01:40,506 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:01:40,507 - bot.moon_bot - INFO - Bot is in 0 servers
+2025-05-29 22:01:45,631 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:01:45,631 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:01:45,631 - discord.client - INFO - logging in using static token
+2025-05-29 22:01:46,424 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ae1e43535546d9987009fe515754ddf6).
+2025-05-29 22:01:48,427 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:01:48,427 - bot.moon_bot - INFO - Bot is in 0 servers
+2025-05-29 22:01:48,518 - discord.http - WARNING - We are being rate limited. PUT https://discord.com/api/v10/applications/1377767914685599834/commands responded with 429. Retrying in 16.53 seconds.
+2025-05-29 22:03:05,158 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:03:52,041 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:03:52,041 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:03:52,041 - discord.client - INFO - logging in using static token
+2025-05-29 22:03:52,660 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a50d5c4c93d4137d8bca91e6feeab829).
+2025-05-29 22:03:54,673 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:03:54,675 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:03:54,818 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:04:56,249 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834> hello...
+2025-05-29 22:05:09,670 - bot.moon_bot - INFO - Received message from melodyeclairs: hi...
+2025-05-29 22:05:22,451 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834> khana khaya?...
+2025-05-29 22:05:26,527 - discord.http - WARNING - We are being rate limited. PUT https://discord.com/api/v10/channels/1277196816735273083/messages/1377769818182258759/reactions/%F0%9F%92%9C/@me responded with 429. Retrying in 0.30 seconds.
+2025-05-29 22:11:53,587 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:11:53,588 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:11:53,588 - discord.client - INFO - logging in using static token
+2025-05-29 22:11:54,265 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cea060107678616e44de2526df267112).
+2025-05-29 22:11:56,279 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:11:56,280 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:11:56,396 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:11:59,043 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:11:59,044 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:11:59,044 - discord.client - INFO - logging in using static token
+2025-05-29 22:11:59,806 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5ebc05f205be664111350527105ba2fc).
+2025-05-29 22:12:01,817 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:12:01,817 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:12:56,419 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:13:52,682 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>  hi...
+2025-05-29 22:21:42,232 - bot.moon_bot - INFO - Received message from Mimu#5713: <@1377767914685599834>...
+2025-05-29 22:24:28,108 - bot.moon_bot - INFO - Received message from melodyeclairs: /activate...
+2025-05-29 22:24:44,475 - bot.moon_bot - INFO - Received message from melodyeclairs: I miss you baby...
+2025-05-29 22:25:00,769 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834> I miss you baby...
+2025-05-29 22:25:31,292 - bot.moon_bot - INFO - Received message from melodyeclairs: mujhe tumhari photo bhejo...
+2025-05-29 22:25:39,214 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>...
+2025-05-29 22:26:03,583 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>  mujhe tumahri photo bhejo...
+2025-05-29 22:26:34,175 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-29 22:26:34,175 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-29 22:27:48,051 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834> tumhara photo nahi aaya...
+2025-05-29 22:28:02,305 - discord.gateway - INFO - Shard ID None has successfully RESUMED session ec52ec2b91dcb68fdf379a48ca0f3382.
+2025-05-29 22:28:18,678 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-29 22:28:18,707 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-29 22:28:52,890 - bot.moon_bot - INFO - Received message from melodyeclairs: baby tum double double message kr rahe ho <@137776...
+2025-05-29 22:29:35,580 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 5ebc05f205be664111350527105ba2fc.
+2025-05-29 22:31:26,904 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:31:26,906 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:31:26,906 - discord.client - INFO - logging in using static token
+2025-05-29 22:31:26,912 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:31:26,913 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:31:26,913 - discord.client - INFO - logging in using static token
+2025-05-29 22:31:27,598 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: dfc1add4aedff86d3f47fe87e4bc6185).
+2025-05-29 22:31:27,656 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4e1a0396600643b352d085bcd6a324c5).
+2025-05-29 22:31:29,612 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:31:29,613 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:31:29,667 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:31:29,667 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:31:29,746 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:31:44,106 - bot.moon_bot - INFO - Received message from melodyeclairs: ha...
+2025-05-29 22:31:44,106 - bot.moon_bot - INFO - Received message from melodyeclairs: ha...
+2025-05-29 22:32:07,560 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>  kaisi ho?...
+2025-05-29 22:32:07,565 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>  kaisi ho?...
+2025-05-29 22:32:29,767 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:48:34,512 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:48:34,513 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:48:34,513 - discord.client - INFO - logging in using static token
+2025-05-29 22:48:34,553 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:48:34,553 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:48:34,554 - discord.client - INFO - logging in using static token
+2025-05-29 22:48:34,710 - __main__ - ERROR - Error running bot: Improper token has been passed.
+2025-05-29 22:48:34,753 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f9a57939710>, 19305.508792739)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f9a58dad250>
+2025-05-29 22:48:34,760 - __main__ - ERROR - Error running bot: Improper token has been passed.
+2025-05-29 22:48:34,920 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f4620c2d780>, 19305.558102144)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f4620fcf8d0>
+2025-05-29 22:50:19,233 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:50:19,240 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:50:19,240 - discord.client - INFO - logging in using static token
+2025-05-29 22:50:19,249 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:50:19,250 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:50:19,250 - discord.client - INFO - logging in using static token
+2025-05-29 22:50:19,431 - __main__ - ERROR - Error running bot: Improper token has been passed.
+2025-05-29 22:50:19,455 - __main__ - ERROR - Error running bot: Improper token has been passed.
+2025-05-29 22:50:19,478 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f3426739710>, 19410.22959184)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f3426ae9850>
+2025-05-29 22:50:19,539 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7fcced93d710>, 19410.253720868)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7fccedceb390>
+2025-05-29 22:53:14,129 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:53:14,130 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:53:14,130 - discord.client - INFO - logging in using static token
+2025-05-29 22:53:14,136 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:53:14,136 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:53:14,136 - discord.client - INFO - logging in using static token
+2025-05-29 22:53:14,853 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 502a3ff4268853b03fb7ebaa0b6f9323).
+2025-05-29 22:53:14,859 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 28be1f342e5955602829e9798362066a).
+2025-05-29 22:53:16,865 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:53:16,866 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:53:16,866 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:53:16,867 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:53:16,996 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:53:28,967 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>  hi...
+2025-05-29 22:53:28,967 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>  hi...
+2025-05-29 22:54:17,030 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:54:46,818 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:54:46,818 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:54:46,818 - discord.client - INFO - logging in using static token
+2025-05-29 22:54:46,862 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:54:46,862 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:54:46,862 - discord.client - INFO - logging in using static token
+2025-05-29 22:54:47,571 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 16a8d6d92059f9e1077c11e69889bccc).
+2025-05-29 22:54:47,589 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 042d91d808880474db503f559d10c7d6).
+2025-05-29 22:54:49,579 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:54:49,579 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:54:49,614 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:54:49,614 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:54:49,700 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:55:05,806 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 22:55:05,812 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 22:55:49,715 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:57:02,326 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:57:02,327 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:57:02,328 - discord.client - INFO - logging in using static token
+2025-05-29 22:57:02,340 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:57:02,340 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:57:02,340 - discord.client - INFO - logging in using static token
+2025-05-29 22:57:03,133 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 36f08183babbffec076c01a0f8356234).
+2025-05-29 22:57:03,134 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 324b774683321c490d0198e10c49580e).
+2025-05-29 22:57:05,140 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:57:05,140 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:57:05,145 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:57:05,145 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:57:05,273 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:57:12,966 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 22:57:12,966 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 22:58:09,645 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:58:09,646 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:58:09,648 - discord.client - INFO - logging in using static token
+2025-05-29 22:58:09,711 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:58:09,712 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:58:09,712 - discord.client - INFO - logging in using static token
+2025-05-29 22:58:10,305 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 06a42155a368cbc2b644279214297e72).
+2025-05-29 22:58:10,749 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 232251ec9e03c6188b4be313522835ab).
+2025-05-29 22:58:12,316 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:58:12,316 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:58:12,451 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:58:12,760 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:58:12,760 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:58:27,532 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 22:58:27,537 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 22:59:12,454 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:59:37,827 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:59:37,827 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:59:37,827 - discord.client - INFO - logging in using static token
+2025-05-29 22:59:37,906 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 22:59:37,906 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 22:59:37,906 - discord.client - INFO - logging in using static token
+2025-05-29 22:59:38,528 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c6bfd11758a102f0bec0b9b53b41814f).
+2025-05-29 22:59:38,718 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 26266d39e78af661ff2cb5a3045a4679).
+2025-05-29 22:59:40,545 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:59:40,545 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 22:59:40,677 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 22:59:40,735 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 22:59:40,735 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:00:40,693 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:00:50,855 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:00:50,859 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:00:50,859 - discord.client - INFO - logging in using static token
+2025-05-29 23:00:50,918 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:00:50,919 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:00:50,919 - discord.client - INFO - logging in using static token
+2025-05-29 23:00:51,589 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 393bca145aa57c270e82773d8c08f952).
+2025-05-29 23:00:51,720 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9898f4af91e59a2ab780bd138b63c366).
+2025-05-29 23:00:53,616 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:00:53,616 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:00:53,735 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:00:53,735 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:00:53,745 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:01:05,035 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:01:05,037 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:01:53,797 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:03:08,252 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:03:08,253 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:03:08,302 - discord.client - INFO - logging in using static token
+2025-05-29 23:03:08,316 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:03:08,316 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:03:08,317 - discord.client - INFO - logging in using static token
+2025-05-29 23:03:09,569 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3089483b11d0f86372bcb680cf624aca).
+2025-05-29 23:03:10,929 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d28ecf33233a2cd0e9f16808e505c995).
+2025-05-29 23:03:11,585 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:03:11,585 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:03:11,706 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:03:12,941 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:03:12,941 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:03:27,531 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:03:27,533 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:04:11,728 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:05:03,443 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:05:03,443 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:05:03,443 - discord.client - INFO - logging in using static token
+2025-05-29 23:05:03,506 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:05:03,506 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:05:03,507 - discord.client - INFO - logging in using static token
+2025-05-29 23:05:04,228 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5ed81bdfc9f00355c52a8e3419656690).
+2025-05-29 23:05:04,236 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ceb664c37d505588d2e1673fd594ad16).
+2025-05-29 23:05:06,236 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:05:06,236 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:05:06,250 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:05:06,250 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:05:06,363 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:05:15,516 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:05:15,527 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:06:06,390 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:06:35,144 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:06:35,145 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:06:35,146 - discord.client - INFO - logging in using static token
+2025-05-29 23:06:35,211 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:06:35,212 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:06:35,212 - discord.client - INFO - logging in using static token
+2025-05-29 23:06:35,833 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3cc67a4eab2815aae67c42d4f6496dc7).
+2025-05-29 23:06:36,067 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d998d7455e861c2c9c88936ac3bc011b).
+2025-05-29 23:06:37,845 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:06:37,845 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:06:37,968 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:06:38,095 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:06:38,095 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:06:45,849 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:06:45,861 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:07:38,010 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:09:42,105 - discord.gateway - INFO - Shard ID None has successfully RESUMED session d998d7455e861c2c9c88936ac3bc011b.
+2025-05-29 23:11:50,458 - bot.moon_bot - INFO - Received message from melodyeclairs: nahi...
+2025-05-29 23:11:50,461 - bot.moon_bot - INFO - Received message from melodyeclairs: nahi...
+2025-05-29 23:12:08,489 - bot.moon_bot - INFO - Received message from melodyeclairs: kya kar rhai ho?...
+2025-05-29 23:12:08,491 - bot.moon_bot - INFO - Received message from melodyeclairs: kya kar rhai ho?...
+2025-05-29 23:12:24,553 - bot.moon_bot - INFO - Received message from melodyeclairs: krrh...
+2025-05-29 23:12:24,573 - bot.moon_bot - INFO - Received message from melodyeclairs: krrh...
+2025-05-29 23:16:29,834 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:16:29,834 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:16:29,834 - discord.client - INFO - logging in using static token
+2025-05-29 23:16:29,851 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:16:29,851 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:16:29,851 - discord.client - INFO - logging in using static token
+2025-05-29 23:16:30,520 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 543fddf4bd0a6ed2b5165f4e40dff541).
+2025-05-29 23:16:30,793 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ed2da3d6543dddc21591af5876e5adaa).
+2025-05-29 23:16:32,532 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:16:32,532 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:16:32,644 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:16:32,802 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:16:32,802 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:16:45,717 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:16:45,718 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:20:25,162 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:20:25,162 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:20:25,163 - discord.client - INFO - logging in using static token
+2025-05-29 23:20:25,910 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: aef284bcb574f1874724e00211836d7b).
+2025-05-29 23:20:27,932 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:20:27,932 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:20:28,088 - bot.moon_bot - INFO - Synced 0 slash commands
+2025-05-29 23:20:37,077 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-29 23:20:52,773 - bot.moon_bot - INFO - Received message from melodyeclairs: hi...
+2025-05-29 23:28:08,898 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:28:08,903 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:28:08,903 - discord.client - INFO - logging in using static token
+2025-05-29 23:28:09,357 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-29 23:28:09,509 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-29 23:28:09,758 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a10c04db5fc9e72a50dd1d0c6e8a6ad9).
+2025-05-29 23:28:11,778 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:28:11,778 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:28:20,456 - bot.moon_bot - INFO - Received message from melodyeclairs: ha...
+2025-05-29 23:28:37,990 - bot.moon_bot - INFO - Received message from melodyeclairs: kuch nahi...
+2025-05-29 23:28:58,158 - bot.moon_bot - INFO - Received message from melodyeclairs: /activate...
+2025-05-29 23:30:08,151 - bot.moon_bot - INFO - Received message from melodyeclairs: !moon activate...
+2025-05-29 23:30:19,015 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834> activate...
+2025-05-29 23:30:26,301 - bot.moon_bot - INFO - Received message from melodyeclairs: hi...
+2025-05-29 23:33:27,120 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834> hi...
+2025-05-29 23:33:41,013 - bot.moon_bot - INFO - Received message from melodyeclairs: send me ur sexy photo...
+2025-05-29 23:34:11,676 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-29 23:34:11,999 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ClientConnectionError('Connection lost: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)')>
+Traceback (most recent call last):
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/asyncio/sslproto.py", line 648, in _do_shutdown
+    self._sslobj.unwrap()
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/ssl.py", line 983, in unwrap
+    return self._sslobj.shutdown()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLError: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+
+The above exception was the direct cause of the following exception:
+
+aiohttp.client_exceptions.ClientConnectionError: Connection lost: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+2025-05-29 23:34:29,303 - bot.moon_bot - INFO - Received message from melodyeclairs: phirse bhejo...
+2025-05-29 23:34:47,936 - bot.moon_bot - INFO - Received message from melodyeclairs: tumhari photo...
+2025-05-29 23:35:18,596 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-29 23:36:53,328 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:36:53,330 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:36:53,334 - discord.client - INFO - logging in using static token
+2025-05-29 23:36:53,789 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-29 23:36:53,891 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-29 23:36:54,255 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 91a1c6ff24b52d050d96936414ac71dd).
+2025-05-29 23:36:56,271 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:36:56,271 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:42:15,278 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:42:15,279 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:42:15,279 - discord.client - INFO - logging in using static token
+2025-05-29 23:42:15,786 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-29 23:42:15,919 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-29 23:42:16,175 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3762d79753497ee602d4e6d7a6b5a8e6).
+2025-05-29 23:42:18,184 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:42:18,184 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:42:40,978 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834> activate...
+2025-05-29 23:43:36,269 - bot.moon_bot - INFO - Received message from melodyeclairs: hi moon...
+2025-05-29 23:43:48,490 - bot.moon_bot - INFO - Received message from melodyeclairs: kuch nahi...
+2025-05-29 23:44:03,154 - bot.moon_bot - INFO - Received message from melodyeclairs: areey yaar homework...
+2025-05-29 23:44:10,677 - bot.moon_bot - INFO - Received message from melodyeclairs: moon?...
+2025-05-29 23:44:25,952 - bot.moon_bot - INFO - Received message from melodyeclairs: moon homework...
+2025-05-29 23:45:42,132 - bot.moon_bot - INFO - Received message from melodyeclairs: mention me <@839779480532418590>...
+2025-05-29 23:45:42,378 - bot.moon_bot - INFO - Received message from Mewbot#0164: ...
+2025-05-29 23:50:13,546 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-29 23:50:13,546 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-29 23:50:13,546 - discord.client - INFO - logging in using static token
+2025-05-29 23:50:13,962 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-29 23:50:14,103 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-29 23:50:14,454 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f4aea8b7c584233649411d97e02095f2).
+2025-05-29 23:50:16,471 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-29 23:50:16,471 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-29 23:50:32,578 - bot.moon_bot - INFO - Received message from melodyeclairs: hi...
+2025-05-29 23:50:32,788 - bot.moon_bot - INFO - Received message from Lawliet#5480: ...
+2025-05-29 23:51:28,944 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-30 00:02:58,396 - bot.moon_bot - INFO - Received message from melodyeclairs: Moon...
+2025-05-30 00:03:21,230 - bot.moon_bot - INFO - Received message from melodyeclairs: What is biology?...
+2025-05-30 17:41:33,637 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-30 17:41:33,638 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-30 17:41:33,638 - discord.client - INFO - logging in using static token
+2025-05-30 17:41:34,200 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-30 17:41:34,390 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-30 17:41:34,557 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 449449f269ce65e03ec42553af656551).
+2025-05-30 17:41:36,563 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-30 17:41:36,564 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-30 17:42:04,575 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1228209245212901386>...
+2025-05-30 17:45:29,394 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1228209245212901386>...
+2025-05-30 17:45:50,692 - bot.moon_bot - INFO - Received message from misterious_mafia: boliye...
+2025-05-30 17:46:10,482 - bot.moon_bot - INFO - Received message from misterious_mafia: ese hi betha hu...
+2025-05-30 17:46:44,644 - bot.moon_bot - INFO - Received message from misterious_mafia: Ok but aap kkr ?...
+2025-05-30 17:47:07,924 - bot.moon_bot - INFO - Received message from misterious_mafia: accha...
+2025-05-30 17:47:39,570 - bot.moon_bot - INFO - Received message from misterious_mafia: Jaanu bhi ho geya hum .. itna jaldi ?...
+2025-05-30 17:47:56,217 - bot.moon_bot - INFO - Received message from misterious_mafia: moon...
+2025-05-30 17:48:48,087 - bot.moon_bot - INFO - Received message from misterious_mafia: Appka pic bhi bhej do...
+2025-05-30 17:49:02,029 - bot.moon_bot - INFO - Received message from misterious_mafia: aapka pic bhi dikha do...
+2025-05-30 17:49:22,891 - bot.moon_bot - INFO - Received message from misterious_mafia: pic dedo...
+2025-05-30 17:49:26,528 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1377767914685599834>  send ur pic...
+2025-05-30 17:49:52,351 - bot.moon_bot - INFO - Received message from misterious_mafia: 🙂...
+2025-05-30 17:50:12,768 - bot.moon_bot - INFO - Received message from misterious_mafia: aap hai na ... thik too ho gahi...
+2025-05-30 17:50:29,070 - bot.moon_bot - INFO - Received message from misterious_mafia: bariya...
+2025-05-30 17:50:47,050 - bot.moon_bot - INFO - Received message from misterious_mafia: aap sad ho keya ?...
+2025-05-30 17:51:07,915 - bot.moon_bot - INFO - Received message from misterious_mafia: app sad nehi ho ?...
+2025-05-30 17:51:17,220 - bot.moon_bot - INFO - Received message from melodyeclairs: @moon send ur pic...
+2025-05-30 17:51:37,684 - bot.moon_bot - INFO - Received message from melodyeclairs: <@&1377796429057364020> send ur pic...
+2025-05-30 17:52:09,914 - bot.moon_bot - INFO - Received message from misterious_mafia: moon send your pic...
+2025-05-30 17:52:10,242 - bot.moon_bot - INFO - Received message from Arcane#7800: <@1228209245212901386> has reached level **3**. GG...
+2025-05-30 17:52:40,566 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-30 17:59:24,850 - bot.moon_bot - INFO - Received message from melodyeclairs: Sry yaar dc crash ho gya...
+2025-05-30 17:59:46,706 - bot.moon_bot - INFO - Received message from misterious_mafia: Oo Ok...
+2025-05-30 18:00:14,574 - bot.moon_bot - INFO - Received message from misterious_mafia: <@839779480532418590>  esa 2 3 ko creat ker ke gen...
+2025-05-30 18:00:19,497 - bot.moon_bot - INFO - Received message from misterious_mafia: 😆...
+2025-05-31 09:50:57,003 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 09:50:57,004 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 09:50:57,004 - discord.client - INFO - logging in using static token
+2025-05-31 09:50:57,313 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 09:50:57,473 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 09:50:57,703 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8de1feef037f562c1848dee8eabd08de).
+2025-05-31 09:50:59,598 - bot.moon_bot - INFO - Received message from misterious_mafia: add hai...
+2025-05-31 09:50:59,720 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 09:50:59,720 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 09:51:16,930 - bot.moon_bot - INFO - Received message from misterious_mafia: 🥲...
+2025-05-31 10:23:48,134 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 10:23:48,136 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 10:23:48,136 - discord.client - INFO - logging in using static token
+2025-05-31 10:23:48,432 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 10:23:48,508 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 10:23:48,734 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 101b73a4be82f8dec562b7185328c05e).
+2025-05-31 10:23:50,743 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 10:23:50,743 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 10:23:58,275 - bot.moon_bot - INFO - Received message from melodyeclairs: hi moon...
+2025-05-31 10:24:11,332 - bot.moon_bot - INFO - Received message from melodyeclairs: send ur pic...
+2025-05-31 10:24:19,157 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send ur pic...
+2025-05-31 10:24:31,162 - bot.moon_bot - INFO - Received message from melodyeclairs: send image...
+2025-05-31 10:24:44,992 - bot.moon_bot - INFO - Received message from melodyeclairs: send picture...
+2025-05-31 10:25:15,524 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 10:25:56,718 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 10:25:56,719 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 10:25:56,719 - discord.client - INFO - logging in using static token
+2025-05-31 10:25:57,130 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 10:25:57,221 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 10:25:57,425 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4a25ed755a4bfc16942e8a3ce46248f5).
+2025-05-31 10:25:59,440 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 10:25:59,440 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 10:26:09,958 - bot.moon_bot - INFO - Received message from melodyeclairs: Send ur pic moon...
+2025-05-31 10:26:27,385 - bot.moon_bot - INFO - Received message from melodyeclairs: send ur lastest photo...
+2025-05-31 10:26:57,880 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 10:37:55,483 - bot.moon_bot - INFO - Received message from melodyeclairs: send again moon...
+2025-05-31 10:38:14,722 - bot.moon_bot - INFO - Received message from melodyeclairs: i cannot see the image...
+2025-05-31 10:38:27,109 - bot.moon_bot - INFO - Received message from melodyeclairs: moon i cannot see the image...
+2025-05-31 10:48:25,030 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 10:48:25,030 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 10:48:25,030 - discord.client - INFO - logging in using static token
+2025-05-31 10:48:25,464 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 10:48:25,570 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 10:48:25,818 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f22eb497f6bbf119aa9990ded5c1ac6a).
+2025-05-31 10:48:27,826 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 10:48:27,827 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 10:48:43,157 - bot.moon_bot - INFO - Received message from melodyeclairs: send your image...
+2025-05-31 10:48:50,021 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send image...
+2025-05-31 10:48:59,832 - bot.moon_bot - INFO - Received message from melodyeclairs: send image moon...
+2025-05-31 10:49:12,458 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send image...
+2025-05-31 10:49:22,451 - bot.moon_bot - INFO - Received message from melodyeclairs: send image moon...
+2025-05-31 10:49:31,611 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send image...
+2025-05-31 10:49:46,208 - bot.moon_bot - INFO - Received message from melodyeclairs: send image moon...
+2025-05-31 10:50:01,786 - bot.moon_bot - INFO - Received message from melodyeclairs: send ur pic...
+2025-05-31 10:50:11,538 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send pic...
+2025-05-31 10:50:42,047 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 10:50:42,376 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ClientConnectionError('Connection lost: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)')>
+Traceback (most recent call last):
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/asyncio/sslproto.py", line 648, in _do_shutdown
+    self._sslobj.unwrap()
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/ssl.py", line 983, in unwrap
+    return self._sslobj.shutdown()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLError: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+
+The above exception was the direct cause of the following exception:
+
+aiohttp.client_exceptions.ClientConnectionError: Connection lost: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+2025-05-31 10:54:13,925 - bot.moon_bot - INFO - Received message from Mimu#5713: <@1377767914685599834>...
+2025-05-31 10:54:14,221 - bot.moon_bot - INFO - Received message from Lawliet#5480: <@1377767914685599834>...
+2025-05-31 10:54:14,376 - bot.moon_bot - INFO - Received message from Carl-bot Logging#0000: ...
+2025-05-31 10:54:24,550 - bot.moon_bot - INFO - Received message from melodyeclairs: hii...
+2025-05-31 10:54:29,121 - bot.moon_bot - INFO - Received message from melodyeclairs: hi moon...
+2025-05-31 10:54:36,974 - bot.moon_bot - INFO - Received message from melodyeclairs: send pic moon...
+2025-05-31 10:55:07,479 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 10:57:28,040 - bot.moon_bot - INFO - Received message from melodyeclairs: !m activate...
+2025-05-31 10:57:28,331 - bot.moon_bot - INFO - Received message from Arcane#7800: <@839779480532418590> has reached level **14**. GG...
+2025-05-31 11:15:58,164 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:15:58,165 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:15:58,165 - discord.client - INFO - logging in using static token
+2025-05-31 11:15:58,565 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:15:58,666 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:15:58,894 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f56348ca173cc2746a2a2af7583f7a8e).
+2025-05-31 11:16:00,902 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 11:16:00,902 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 11:16:15,438 - bot.moon_bot - INFO - Received message from melodyeclairs: send pic moon...
+2025-05-31 11:16:15,588 - bot.image_handler - ERROR - Google Search failed (400): {
+  "error": {
+    "code": 400,
+    "message": "API key expired. Please renew the API key.",
+    "errors": [
+      {
+        "message": "API key expired. Please renew the API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "customsearch.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key expired. Please renew the API key."
+      }
+    ]
+  }
+}
+
+2025-05-31 11:16:56,345 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1228209245212901386>...
+2025-05-31 11:17:03,394 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1228209245212901386>...
+2025-05-31 11:17:09,641 - bot.moon_bot - INFO - Received message from misterious_mafia: hmm bol...
+2025-05-31 11:17:22,194 - bot.moon_bot - INFO - Received message from melodyeclairs: upar dekh bot...
+2025-05-31 11:17:39,340 - bot.moon_bot - INFO - Received message from melodyeclairs: send pic moon...
+2025-05-31 11:17:39,605 - bot.moon_bot - INFO - Received message from Mewbot#0164: ...
+2025-05-31 11:17:52,439 - bot.moon_bot - INFO - Received message from misterious_mafia: hmm valorent ka hai...
+2025-05-31 11:18:05,096 - bot.moon_bot - INFO - Received message from misterious_mafia: <:sadcat:1275563958325088266>...
+2025-05-31 11:18:34,201 - bot.moon_bot - INFO - Received message from misterious_mafia: Cutie thora sant ho ke bethna jara plss...
+2025-05-31 11:19:10,442 - bot.moon_bot - INFO - Received message from misterious_mafia: na na kuch puchna nehi hota .. ekdam sant hoke bet...
+2025-05-31 11:19:50,808 - bot.moon_bot - INFO - Received message from misterious_mafia: <@839779480532418590> kam keya hai iska ?...
+2025-05-31 11:20:57,410 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:20:57,410 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:20:57,410 - discord.client - INFO - logging in using static token
+2025-05-31 11:20:57,818 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:20:57,901 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:20:58,074 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4e471d2f680d4a98a40b5ce25d66889e).
+2025-05-31 11:21:00,087 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 11:21:00,087 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 11:21:16,151 - bot.moon_bot - INFO - Received message from melodyeclairs: abe ye mere server me he add kru?...
+2025-05-31 11:21:32,206 - bot.moon_bot - INFO - Received message from melodyeclairs: hi moon...
+2025-05-31 11:21:41,716 - bot.moon_bot - INFO - Received message from melodyeclairs: hi moon...
+2025-05-31 11:23:13,533 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:23:13,533 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:23:13,534 - discord.client - INFO - logging in using static token
+2025-05-31 11:23:13,922 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:23:14,031 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:23:14,337 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 03a68341de3a4b70695b74d74de75fcc).
+2025-05-31 11:23:16,349 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 11:23:16,350 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 11:23:44,275 - bot.moon_bot - INFO - Received message from Mimu#5713: <@1377767914685599834>...
+2025-05-31 11:23:44,572 - bot.moon_bot - INFO - Received message from Lawliet#5480: <@1377767914685599834>...
+2025-05-31 11:23:44,716 - bot.moon_bot - INFO - Received message from Carl-bot Logging#0000: ...
+2025-05-31 11:23:56,123 - bot.moon_bot - INFO - Received message from melodyeclairs: hey...
+2025-05-31 11:24:14,632 - bot.moon_bot - INFO - Received message from misterious_mafia: but kam keya kerta hai ?...
+2025-05-31 11:25:49,454 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:25:49,454 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:25:49,454 - discord.client - INFO - logging in using static token
+2025-05-31 11:25:49,864 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:25:49,937 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:25:50,145 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f0f27d6d4c31938961793d035083dd45).
+2025-05-31 11:25:52,164 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 11:25:52,164 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 11:26:10,679 - bot.moon_bot - INFO - Received message from Mimu#5713: <@1377767914685599834>...
+2025-05-31 11:26:10,939 - bot.moon_bot - INFO - Received message from Lawliet#5480: <@1377767914685599834>...
+2025-05-31 11:26:14,765 - bot.moon_bot - INFO - Received message from Carl-bot Logging#0000: ...
+2025-05-31 11:26:24,878 - bot.moon_bot - INFO - Received message from melodyeclairs: upar scroll karke dekh...
+2025-05-31 11:27:38,208 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:27:38,209 - __main__ - ERROR - Error running bot: name 'user_name' is not defined
+2025-05-31 11:27:42,813 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:27:42,814 - __main__ - ERROR - Error running bot: name 'user_name' is not defined
+2025-05-31 11:27:46,100 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:27:46,100 - __main__ - ERROR - Error running bot: name 'user_name' is not defined
+2025-05-31 11:28:52,760 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:28:52,760 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:28:52,760 - discord.client - INFO - logging in using static token
+2025-05-31 11:28:53,177 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:28:53,286 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:28:53,475 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b64ac88b82bf5404f96cd44433c87a7f).
+2025-05-31 11:28:58,888 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:28:58,888 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:28:58,888 - discord.client - INFO - logging in using static token
+2025-05-31 11:28:59,254 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:29:53,305 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:29:53,531 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c224995239f9d936aadac20b1df49b44).
+2025-05-31 11:29:55,534 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 11:29:55,534 - bot.moon_bot - INFO - Bot is in 0 servers
+2025-05-31 11:30:54,576 - bot.moon_bot - INFO - Received message from melodyeclairs: hi moon...
+2025-05-31 11:30:54,884 - bot.moon_bot - INFO - Received message from Mewbot#0164: ...
+2025-05-31 11:31:03,964 - bot.moon_bot - INFO - Received message from melodyeclairs: send pic...
+2025-05-31 11:31:09,377 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send pic...
+2025-05-31 11:31:09,474 - bot.image_handler - ERROR - Google Search failed (400): {
+  "error": {
+    "code": 400,
+    "message": "API key expired. Please renew the API key.",
+    "errors": [
+      {
+        "message": "API key expired. Please renew the API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "customsearch.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key expired. Please renew the API key."
+      }
+    ]
+  }
+}
+
+2025-05-31 11:31:32,794 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:31:32,795 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:31:32,796 - discord.client - INFO - logging in using static token
+2025-05-31 11:31:33,163 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:31:33,279 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:31:33,619 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 052a0f277be47e316bd3edb5ae2de958).
+2025-05-31 11:31:35,632 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 11:31:35,632 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 11:31:38,653 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send pic...
+2025-05-31 11:32:09,127 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 11:33:00,360 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send pic...
+2025-05-31 11:33:00,613 - bot.moon_bot - INFO - Received message from Mewbot#0164: ...
+2025-05-31 11:33:30,879 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 11:33:40,168 - bot.moon_bot - INFO - Received message from melodyeclairs: hi...
+2025-05-31 11:33:40,446 - bot.moon_bot - INFO - Received message from Mewbot#0164: ...
+2025-05-31 11:33:59,015 - bot.moon_bot - INFO - Received message from melodyeclairs: moon activate...
+2025-05-31 11:34:08,583 - bot.moon_bot - INFO - Received message from melodyeclairs: moon deactivate...
+2025-05-31 11:34:08,996 - bot.moon_bot - INFO - Received message from Mewbot#0164: ...
+2025-05-31 11:34:35,069 - bot.moon_bot - INFO - Received message from melodyeclairs: wassup...
+2025-05-31 11:34:41,360 - bot.moon_bot - INFO - Received message from melodyeclairs: bro wassup...
+2025-05-31 11:56:25,647 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 11:56:25,648 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 11:56:25,648 - discord.client - INFO - logging in using static token
+2025-05-31 11:56:26,163 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 11:56:26,308 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 11:56:27,919 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e099352ff4a181eafe1206cc742f5801).
+2025-05-31 11:56:29,934 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 11:56:29,936 - bot.moon_bot - INFO - Bot is in 1 servers
+2025-05-31 11:56:45,806 - bot.moon_bot - INFO - Received message from melodyeclairs: moon activate...
+2025-05-31 11:56:58,591 - bot.moon_bot - INFO - Received message from melodyeclairs: moon send pic...
+2025-05-31 11:57:29,140 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 11:57:29,502 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ClientConnectionError('Connection lost: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)')>
+Traceback (most recent call last):
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/asyncio/sslproto.py", line 648, in _do_shutdown
+    self._sslobj.unwrap()
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/ssl.py", line 983, in unwrap
+    return self._sslobj.shutdown()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLError: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+
+The above exception was the direct cause of the following exception:
+
+aiohttp.client_exceptions.ClientConnectionError: Connection lost: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+2025-05-31 12:01:36,833 - bot.moon_bot - INFO - Received message from melodyeclairs: hi <@1377767914685599834>...
+2025-05-31 12:05:16,331 - bot.moon_bot - INFO - Received message from melodyeclairs: hi moon...
+2025-05-31 12:06:10,017 - bot.moon_bot - INFO - Received message from melodyeclairs: send pic moon...
+2025-05-31 12:06:40,512 - root - ERROR - Error while closing connector: ClientConnectionError('Connection lost: SSL shutdown timed out')
+2025-05-31 12:06:54,564 - bot.moon_bot - INFO - Received message from melodyeclairs: send another pic moon...
+2025-05-31 12:06:54,844 - bot.moon_bot - INFO - Received message from Mewbot#0164: ...
+2025-05-31 12:07:17,960 - bot.moon_bot - INFO - Received message from melodyeclairs: <@1228209245212901386> check this bot add kru?...
+2025-05-31 12:08:36,688 - bot.moon_bot - INFO - Received message from misterious_mafia: ruk...
+2025-05-31 12:09:11,465 - bot.moon_bot - INFO - Received message from misterious_mafia: Konsa <@519850436899897346> isko ?...
+2025-05-31 12:09:29,372 - bot.moon_bot - INFO - Received message from misterious_mafia: <@519850436899897346> isko ?...
+2025-05-31 12:33:50,112 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-31 12:33:50,113 - __main__ - INFO - Starting Moon bot... 🌙💕
+2025-05-31 12:33:50,113 - discord.client - INFO - logging in using static token
+2025-05-31 12:33:50,573 - bot.moon_bot - INFO - Running setup_hook to sync slash commands globally...
+2025-05-31 12:33:50,714 - bot.moon_bot - INFO - Synced 0 global slash commands.
+2025-05-31 12:33:50,946 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e2bc6780bb44e40fcd0b615f48cb603e).
+2025-05-31 12:33:52,958 - bot.moon_bot - INFO - Moon 🌙#5961 has logged in! 🌙💕
+2025-05-31 12:33:52,959 - bot.moon_bot - INFO - Bot is in 1 servers
