@@ -10,7 +10,7 @@ import logging
 from bot.moon_bot import MoonBot
 
 # Load environment variables
-load_dotenv()
+
 
 # Configure logging
 logging.basicConfig(
